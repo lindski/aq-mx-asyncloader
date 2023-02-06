@@ -12,4 +12,4 @@ Add content to show when loading is complete
 (optional) add an action that can perform the background loading (e.g. from a microflow). If you don't use this then you need to control a change somewhere that will result in the expression evaluating to true at some point
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
+https://github.com/lindski/aq-mx-asyncloader/issues
