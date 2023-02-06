@@ -1,24 +1,15 @@
 ## AqAsyncLoader
-[My widget description]
+Allows apps to display information to users while async content is loading
 
 ## Features
-[feature highlights]
+Developers can control what to show while content is loading
 
 ## Usage
-[step by step instructions]
-
-## Demo project
-[link to sandbox]
+Add widget to page
+Add an expression that determines whether the content has loaded
+Add content to show while loading is taking place
+Add content to show when loading is complete
+(optional) add an action that can perform the background loading (e.g. from a microflow). If you don't use this then you need to control a change somewhere that will result in the expression evaluating to true at some point
 
 ## Issues, suggestions and feature requests
 [link to GitHub issues]
-
-## Development and contribution
-
-1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
-    - the widget will be bundled;
-    - the bundle will be included in a `dist` folder in the root directory of the project;
-    - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
-
-[specify contribution]
